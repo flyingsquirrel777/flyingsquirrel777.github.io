@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="bootstrap.css">
+  <title>Responsive Deisgn</title>
+</head>
+
+<body>
+  <div id="title">
+    <h1>Responsive Design</h1>
+
+  </div>
+  <br>
+  <div class="content">
+	<div class="parts" id="body1">
+		<h1 class = "text-center">Project Overview</h1>
+		<p>In this project, I redesigned poorly designed website. I picked the Brown CS research website, analyzd and identified its exisiting usability problems.</p> 
+		<p>Then I created low-fidelity and high-fidelity prototypes for three screen sizes and built a responsive website based on the prototypes in HTML, CSS, Bootstrap.</p>
+		<ul>
+			<li><strong>Project Goal</strong>: Practice the workflow of redesigning a simple website.</li>
+			<li><strong>Tech Stack</strong>: HTML, CSS, Bootstrap</li>
+			<li><strong>Redesigned website</strong>: <a href="https://flyingmonkey777.github.io/" target="_blank">Website Link</a></li>
+
+		</ul>
+
+	</div>
+	
+	<br>	
+	<div class="parts" id="body1">
+			
+			<h1 class = "text-center">Part 1: Identifying Usability Problems</h1>
+			<h3>Brown CS Department Research Page</h3>
+			<a class = "text-center" href="https://cs.brown.edu/research/">Link to this website.</a>
+			<img src="images/brownpage.png" title="brownpage">
+			<br>
+			<h3>Problems</h3>
+			<ul>
+				<li><b>Visibility of system status:</b> the font color of the current internal path is vague.</li>
+				<li><b>User control and freedom:</b> clicking a link to any research lab will redirect to its home page, but not open in a new tab, makes it hard to go back to the last page, lead to user anxiety due to the lack of control.</li>
+				<li><b>Recognition rather than recall:</b> If you click the link of Undergraduate Research, you will get to a page located at "Home » Degrees » Undergrad » Research", which can be very confusing because it has a different path from "Home » Research".</li>
+				<li><b>Help and documentation:</b> The relationship of the two parallel banners of menus is confusing. The relationship of the banners and body content is also unclear. </li>
+				<li><b>Visibility of system status:</b> The font color of the current internal path is vague.</li>
+			</ul>
+			<h3>Accessibility</h3>
+			<p>There are 1 errors detected: 1 missing form lable. There are 15 contrast errors: all have very low contrast. There are 13 alerts: 7 of them are redundant links, and 4 of them are redundant title text.</p>
+		</div>
+		<div class="parts" id="body2">
+			<h1 class = "text-center">Part 2: Visual Redesign</h1>
+			<h3>Low-fidelity Wireframing</h3>
+			<div class="pics">
+			<img class="small_img" src="images/lowfiDesktop1.jpg" title="lowfi-desktop1">
+			<img src="images/lowfiDesktop2.jpeg" title="lowfi-desktop2">
+			<img src="images/lowfiPad.jpeg" title="lowfi-ipad">
+			<img src="images/lowfiPhone.jpeg" title="lowfi-iphone" >
+
+			</div>
+
+			<h3>Visual Design Style Guide</h3>
+			<div class="pics">
+				<img src="images/style_guide.png" title="UIguide">
+			</div>
+
+			<p>Now the website is responsive in three modes, and the navgiation bar makes more sense.</p>
+			<h3>High-Fidelity Prototyping</h3>
+			<div class="pics">
+			<img src="images/MacBook Pro 14 - 1.png" title="macbook1">
+			<img src="images/MacBook Pro 14 - 2.png" title="macbook2">
+			<img src="images/iPad Pro 12.9 - 1.png" title="ipad">
+			<img src="images/iPhone14ProMax.png" title="iphone">
+			</div>
+			
+		</div>
+		<div class="parts" id="body3">
+			<h1 class = "text-center">Part 3: Responsive Redesign</h1>
+			<h3>Implementaion</h3>
+			<p>Implementation with HTML, CSS, JavaScript, Bootstrap</p>
+			<a href=" https://flyingmonkey777.github.io/">Link to my redesigned webiste</a>
+			<p>Feel free to scroll and click on the bars and buttons!</p>
+
+		</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
